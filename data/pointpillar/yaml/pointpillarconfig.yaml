@@ -1,0 +1,36 @@
+VoxelizationParameter: 
+        min_range: [0.0, -39.68, -7.0]
+        max_range: [110.08, 39.68, 3.0]
+        voxel_size: [0.16, 0.16, 10.0]
+        max_voxels: 40000
+        max_points_per_voxel: 100
+        max_points: 10000
+        num_feature: 4 	
+PostProcessParameter:
+        min_range: [0.0, -39.68, -7.0]
+        max_range: [110.08, 39.68, 3.0]
+        num_classes: 3
+        num_anchors: 6
+        len_per_anchor: 4
+        anchors: [4.466241795405554,2.895873681496232,3.4089736064956404,0.0,
+                 4.466241795405554,2.895873681496232,3.4089736064956404,1.57,
+                 1.5719633241947186,1.9926229221361293,2.084052071369858,0.0,
+                 1.5719633241947186,1.9926229221361293,2.084052071369858,1.57,
+                 0.7970032373716603,0.8988372171895506,1.6029824652093037,0.0,
+                 0.7970032373716603,0.8988372171895506,1.6029824652093037,1.57,]
+        anchor_bottom_heights: [-1.78,-0.6,-0.6,] 
+        num_box_values: 7
+        score_thresh: 0.1
+        aerohead_thresh: 0.22
+        aeroengine_thresh: 0.5
+        wheel_thresh: 0.6
+        dir_offset: 0.78539
+        nms_thresh: 0.01	
+LidarModelParameter:
+        lidar_model: "/home/nvidia/project/lidar_testCNN_3_23/data/pointpillar/model/pointpillar.plan"
+        save_txt_dir: "/home/nvidia/project/lidar_testCNN_3_23/data/pointpillar/obj_txt/"
+	
+	
+	
+	
+	
