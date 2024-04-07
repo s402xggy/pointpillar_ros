@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# model
+/data/pointpillar/model
