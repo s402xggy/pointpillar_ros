@@ -1,9 +1,0 @@
-
-<launch>
-    <node
-        pkg= "pointpillar"
-        type= "pointpillar_node"
-        name= "pointpillar"
-        output= "screen">
-    </node>
-</launch>
